@@ -8,7 +8,7 @@ Queen of the gods, and goddess of women, marriage, childbirth, heirs, kings, and
 
 This is a [Next.js](https://nextjs.org/) template project, that uses TypeScript, Tailwind CSS, and ESLint.
 
-This template has is responsibe and designed with HTML5 semantics in mind. It has multi-language support, powered by `next-intl`, and dark mode support, powered by `next-themes`. Icons are provided by `react-icons`.
+This template is responsive and designed with HTML5 semantics in mind. It has multi-language support, powered by `next-intl`, and dark mode support, powered by `next-themes`. Icons are provided by `react-icons`.
 
 No UI library is used, so you can use your own components or any other UI library.
 
@@ -24,7 +24,19 @@ No UI library is used, so you can use your own components or any other UI librar
 
 ## Getting Started
 
-First, run the development server:
+Install the dependencies:
+
+```bash
+npm install
+# or
+yarn
+# or
+pnpm install
+# or
+bun install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
