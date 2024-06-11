@@ -1,0 +1,122 @@
+{
+  "DefaultHeader": {
+    "App": {
+      "Title": "Web App Title",
+      "NavLink": "Link"
+    }
+  },
+  "DefaultFooter": {
+    "Copyright": {
+      "Name": "My Company Name",
+      "AllRightsReserved": "All rights reserved"
+    }
+  },
+  "DefaultMain": {
+    "Title": "Main Title",
+    "Paragraph-1": "This is a paragraph inside a main tag.",
+    "Paragraph-2": "This is another paragraph inside a main tag."
+  },
+  "DefaultSection": {
+    "Title": "Section Title",
+    "Paragraph": "This is a paragraph inside a section tag.",
+    "Article": {
+      "Title": "Article Title",
+      "Paragraph-1": "This is a paragraph inside an article tag.",
+      "Paragraph-2": "This is another paragraph inside an article tag."
+    }
+  },
+  "DefaultAside": {
+    "Title": "Aside Title",
+    "Paragraph": "This is a paragraph inside an aside tag."
+  },
+  "MyNextUIHeader": {
+    "Navbar": {
+      "Brand": "Web App Title",
+      "NavLink": "Link",
+      "LanguageMenu": "Language Menu"
+    }
+  },
+  "MyNextUIFooter": {
+    "Copyright": {
+      "Name": "My Company Name",
+      "AllRightsReserved": "All rights reserved"
+    }
+  },
+  "MyNextUIMain": {
+    "Title": "Main Title",
+    "Paragraph-1": "This is a paragraph inside a main tag.",
+    "Paragraph-2": "This is another paragraph inside a main tag."
+  },
+  "MyNextUISection": {
+    "Title": "Section Title",
+    "Paragraph": "This is a paragraph inside a section tag.",
+    "Article": {
+      "Title": "Article Title",
+      "Paragraph-1": "This is a paragraph inside an article tag.",
+      "Paragraph-2": "This is another paragraph inside an article tag."
+    }
+  },
+  "MyNextUIAside": {
+    "Title": "Aside Title",
+    "Paragraph": "This is a paragraph inside an aside tag."
+  },
+  "MyNextUIDemo": {
+    "Title": "Demo Section",
+    "Paragraph": "This is a section to demonstrate the use of NextUI components.",
+    "Colors": {
+      "Title": "Colors",
+      "Paragraph": "A paragraph about the colors used in the demo.",
+      "Default": "Default",
+      "Primary": "Primary",
+      "Secondary": "Secondary",
+      "Success": "Success",
+      "Warning": "Warning",
+      "Danger": "Danger",
+      "Blue": "Blue",
+      "Purple": "Purple",
+      "Green": "Green",
+      "Red": "Red",
+      "Pink": "Pink",
+      "Yellow": "Yellow",
+      "Zinc": "Zinc",
+      "MyTeal": "My Teal"
+    },
+    "Images": {
+      "Title": "Images",
+      "Paragraph": "A paragraph about the images used in the demo."
+    },
+    "Table": {
+      "Header": {
+        "Name": "NAME",
+        "Role": "ROLE",
+        "Status": "STATUS"
+      },
+      "Rows": {
+        "Row-1": {
+          "Name": "John Doe",
+          "Role": "Developer",
+          "Status": "Active"
+        },
+        "Row-2": {
+          "Name": "Jane Doe",
+          "Role": "Designer",
+          "Status": "Inactive"
+        },
+        "Row-3": {
+          "Name": "Jim Doe",
+          "Role": "Manager",
+          "Status": "Active"
+        },
+        "Row-4": {
+          "Name": "Jill Doe",
+          "Role": "Tester",
+          "Status": "Inactive"
+        }
+      },
+      "Labels": {
+        "AriaLabel": "Table with demo data",
+        "SelectionColor": "Selection color"
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "DefaultHeader": {
+    "App": {
+      "Title": "Titel der Web-Appe",
+      "NavLink": "Verknüpfung"
+    }
+  },
+  "DefaultFooter": {
+    "Copyright": {
+      "Name": "Mein Firmenname",
+      "AllRightsReserved": "Alle Rechte vorbehalten"
+    }
+  },
+  "DefaultMain": {
+    "Title": "Haupttitel",
+    "Paragraph-1": "Dies ist ein Absatz innerhalb eines Haupt-Tags.",
+    "Paragraph-2": "Dies ist ein weiterer Absatz innerhalb eines Haupt-Tags."
+  },
+  "DefaultSection": {
+    "Title": "Abschnittstitel",
+    "Paragraph": "Dies ist ein Absatz innerhalb eines Abschnitts-Tags.",
+    "Article": {
+      "Title": "Artikeltitel",
+      "Paragraph-1": "Dies ist ein Absatz innerhalb eines Artikel-Tags.",
+      "Paragraph-2": "Dies ist ein weiterer Absatz innerhalb eines Artikel-Tags."
+    }
+  },
+  "DefaultAside": {
+    "Title": "Nebentitel",
+    "Paragraph": "Dies ist ein Absatz innerhalb eines aside-Tags."
+  },
+  "MyNextUIHeader": {
+    "Navbar": {
+      "Brand": "Titel der Web-Appe",
+      "NavLink": "Verknüpfung",
+      "LanguageMenu": "Sprachmenü"
+    }
+  },
+  "MyNextUIFooter": {
+    "Copyright": {
+      "Name": "Mein Firmenname",
+      "AllRightsReserved": "Alle Rechte vorbehalten"
+    }
+  },
+  "MyNextUIMain": {
+    "Title": "Haupttitel",
+    "Paragraph-1": "Dies ist ein Absatz innerhalb eines Haupt-Tags.",
+    "Paragraph-2": "Dies ist ein weiterer Absatz innerhalb eines Haupt-Tags."
+  },
+  "MyNextUISection": {
+    "Title": "Abschnittstitel",
+    "Paragraph": "Dies ist ein Absatz innerhalb eines Abschnitts-Tags.",
+    "Article": {
+      "Title": "Artikeltitel",
+      "Paragraph-1": "Dies ist ein Absatz innerhalb eines Artikel-Tags.",
+      "Paragraph-2": "Dies ist ein weiterer Absatz innerhalb eines Artikel-Tags."
+    }
+  },
+  "MyNextUIAside": {
+    "Title": "Nebentitel",
+    "Paragraph": "Dies ist ein Absatz innerhalb eines aside-Tags."
+  },
+  "MyNextUIDemo": {
+    "Title": "Demo-Abschnitt",
+    "Paragraph": "Dies ist ein Abschnitt, der die Verwendung von NextUI-Komponenten demonstriert.",
+    "Colors": {
+      "Title": "Farben",
+      "Paragraph": "Dies ist ein Abschnitt, der die Verwendung von Farben demonstriert.",
+      "Default": "Standard",
+      "Primary": "Primär",
+      "Secondary": "Sekundär",
+      "Success": "Erfolg",
+      "Warning": "Warnung",
+      "Danger": "Gefahr",
+      "Blue": "Blau",
+      "Purple": "Lila",
+      "Green": "Grün",
+      "Red": "Rot",
+      "Pink": "Pink",
+      "Yellow": "Gelb",
+      "Zinc": "Zink",
+      "MyTeal": "Mein Türkis"
+    },
+    "Images": {
+      "Title": "Bilder",
+      "Paragraph": "Dies ist ein Abschnitt, der die Verwendung von Bildern demonstriert."
+    },
+    "Table": {
+      "Header": {
+        "Name": "NAME",
+        "Role": "ROLLE",
+        "Status": "STATUS"
+      },
+      "Rows": {
+        "Row-1": {
+          "Name": "John Doe",
+          "Role": "Entwickler",
+          "Status": "Aktiv"
+        },
+        "Row-2": {
+          "Name": "Jane Doe",
+          "Role": "Designer",
+          "Status": "Inaktiv"
+        },
+        "Row-3": {
+          "Name": "Jim Doe",
+          "Role": "Manager",
+          "Status": "Aktiv"
+        },
+        "Row-4": {
+          "Name": "Jill Doe",
+          "Role": "Tester",
+          "Status": "Inaktiv"
+        }
+      },
+      "Labels": {
+        "AriaLabel": "Tabelle mit Benutzerinformationen",
+        "SelectionColor": "Auswahl-Farbe"
+      }
+    }
+  }
+}
