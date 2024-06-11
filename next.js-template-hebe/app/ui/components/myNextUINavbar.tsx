@@ -20,6 +20,7 @@ import {
 } from '@nextui-org/react';
 import { MdTranslate } from 'react-icons/md';
 import { ThemeSwitcher } from '@/app/ui/components/themeSwitcher';
+import { useRouter, usePathname } from 'next/navigation'; // Import useRouter and usePathname from next/navigation
 
 export interface MyNextUINavbarProps {
   translations: {
@@ -31,6 +32,20 @@ export interface MyNextUINavbarProps {
 
 const MyNextUINavbar = ({ translations }: MyNextUINavbarProps) => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const router = useRouter();
+  const pathname = usePathname();
+  const supportedLocales = ['en-US', 'de-DE'];
+
+  const getCurrentLocale = () => {
+    const localePrefix = pathname.split('/')[1];
+    return supportedLocales.includes(localePrefix) ? localePrefix : 'en-US';
+  };
+
+  const switchLocale = (locale: string) => {
+    const currentLocale = getCurrentLocale();
+    const newPathname = pathname.replace(`/${currentLocale}`, '') || '/';
+    router.push(`/${locale}${newPathname}`);
+  };
 
   return (
     <Navbar
@@ -62,11 +77,11 @@ const MyNextUINavbar = ({ translations }: MyNextUINavbarProps) => {
               </div>
             </DropdownTrigger>
             <DropdownMenu aria-label={translations.languageMenu}>
-              <DropdownItem href="en-US" startContent="🇺🇸">
-                English
+              <DropdownItem key="en-US" onClick={() => switchLocale('en-US')}>
+                🇺🇸 English
               </DropdownItem>
-              <DropdownItem href="de-DE" startContent="🇩🇪">
-                Deutsch
+              <DropdownItem key="de-DE" onClick={() => switchLocale('de-DE')}>
+                🇩🇪 Deutsch
               </DropdownItem>
             </DropdownMenu>
           </Dropdown>
@@ -89,12 +104,20 @@ const MyNextUINavbar = ({ translations }: MyNextUINavbarProps) => {
             </NavbarMenuItem>
             <Divider orientation="horizontal" className="my-4 sm:hidden" />
             <NavbarMenuItem>
-              <Link color="foreground" href="en-US">
+              <Link
+                color="foreground"
+                href="#"
+                onClick={() => switchLocale('en-US')}
+              >
                 🇺🇸 English
               </Link>
             </NavbarMenuItem>
             <NavbarMenuItem>
-              <Link color="foreground" href="de-DE">
+              <Link
+                color="foreground"
+                href="#"
+                onClick={() => switchLocale('de-DE')}
+              >
                 🇩🇪 Deutsch
               </Link>
             </NavbarMenuItem>
