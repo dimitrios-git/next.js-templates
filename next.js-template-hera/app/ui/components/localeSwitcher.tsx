@@ -11,7 +11,7 @@ const LocaleSwitcher = () => {
   return (
     <div className="flex space-x-10">
       <Link href={pathname} locale="en-US">
-        🏴󠁧󠁢󠁥󠁮󠁧󠁿 English
+        🇺🇸 English
       </Link>
       <Link href={pathname} locale="de-DE">
         🇩🇪 Deutsch

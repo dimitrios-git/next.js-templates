@@ -12,15 +12,14 @@ This template is responsive and designed with HTML5 semantics in mind. It has mu
 
 No UI library is used, so you can use your own components or any other UI library.
 
+No backend functionality is provided.
+
 ### Screenshots
 
-#### Light Mode on Mobile
-
-![Light Mode on Mobile](./README_iPhone-14-Pro-Max_light.png)
-
-#### Dark Mode on Desktop
-
-![Dark Mode on Desktop](./README_Nest-Hub-Max_dark.png)
+| Mobile                                             | Desktop                                            |
+| -------------------------------------------------- | -------------------------------------------------- |
+| ![Mobile](./screenshots/en-US_light_iPhone-SE.png) | ![Desktop](./screenshots/en-US_light_Nest-Hub.png) |
+| ![Mobile](./screenshots/de-DE_dark_iPhone-SE.png)  | ![Desktop](./screenshots/de-DE_dark_Nest-Hub.png)  |
 
 ## Getting Started
 
