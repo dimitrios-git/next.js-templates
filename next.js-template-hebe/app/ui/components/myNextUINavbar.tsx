@@ -104,20 +104,12 @@ const MyNextUINavbar = ({ translations }: MyNextUINavbarProps) => {
             </NavbarMenuItem>
             <Divider orientation="horizontal" className="my-4 sm:hidden" />
             <NavbarMenuItem>
-              <Link
-                color="foreground"
-                href="#"
-                onClick={() => switchLocale('en-US')}
-              >
+              <Link color="foreground" onClick={() => switchLocale('en-US')}>
                 🇺🇸 English
               </Link>
             </NavbarMenuItem>
             <NavbarMenuItem>
-              <Link
-                color="foreground"
-                href="#"
-                onClick={() => switchLocale('de-DE')}
-              >
+              <Link color="foreground" onClick={() => switchLocale('de-DE')}>
                 🇩🇪 Deutsch
               </Link>
             </NavbarMenuItem>
